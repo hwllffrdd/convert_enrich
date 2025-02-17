@@ -67,7 +67,7 @@ Notes:
 
 Basic usage with default column names:
 ```R
-source("proteomics_enrichment.R")
+source("convert_enrich.R")
 results <- main(
   data_file = "your_data.csv",
   fc_up_col = "log2_fold_change",
